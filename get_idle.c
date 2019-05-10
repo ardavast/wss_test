@@ -35,7 +35,7 @@ int main(void)
 	ones /= 256;
 	zeros /= 256;
 
-	(void)printf("total: %dMiB active: %dMiB idle: %dMiB\n", total, ones, zeros);
+	(void)printf("total: %dMiB active: %dMiB idle: %dMiB\n", total, zeros, ones);
 
 	return (0);
 }
